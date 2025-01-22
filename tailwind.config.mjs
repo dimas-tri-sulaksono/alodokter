@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,6 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      backgroundColor: {
+        alo: "#3570D2",
+      },
+      borderColor: {
+        alo: "#3570D2",
+      },
+      textColor: {
+        alo: "#3570D2",
       },
     },
   },
