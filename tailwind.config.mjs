@@ -14,6 +14,9 @@ export default {
       },
       backgroundColor: {
         alo: "#3570D2",
+        tagKesehatan: "#F85B06",
+        tagKeluarga: "#559808",
+        tagHidupSehat: "#C78F00",
       },
       borderColor: {
         alo: "#3570D2",
