@@ -24,6 +24,9 @@ export default {
       textColor: {
         alo: "#3570D2",
       },
+      boxShadow: {
+        soft: "0 0 8px 0 rgba(26, 23, 48, 0.13)",
+      },
     },
   },
   plugins: [],
