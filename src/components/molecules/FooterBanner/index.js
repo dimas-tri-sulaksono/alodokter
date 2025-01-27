@@ -62,7 +62,7 @@ const FooterBanner = ({
             </LinkAtm>
           </div>
         </div>
-        <div className="center-alo absolute -bottom-[460px] right-[0px] min-h-[174px] min-w-[200px] border-0 bg-[url('/images/chat.png')] bg-contain bg-no-repeat"></div>
+        {/* <div className="center-alo absolute -bottom-[460px] right-[0px] min-h-[174px] min-w-[200px] border-0 bg-[url('/images/chat.png')] bg-contain bg-no-repeat"></div> */}
 
         <div className="borde-2 min-w-20 border-0 border-red-500"></div>
       </div>

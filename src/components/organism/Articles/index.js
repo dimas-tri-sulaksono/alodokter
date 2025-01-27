@@ -8,7 +8,7 @@ export default function Articles() {
     <>
       <div className="content-inner">
         <div className="container lg:h-[1250px] lg:mx-[405px] lg:w-[1000px]">
-          <div className="main-container">
+          <div className="main-container mb-20">
             {/* <!-- chat now --> */}
             {/* <!-- trending article --> */}
             <TrendingPost />

@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     if (router.pathname === "/") {
       const navbar = document.querySelector(".top-navbar");
-      console.log(navbar);
+      // console.log(navbar);
 
       const handleScroll = () => {
         if (window.scrollY > 50) {
@@ -26,14 +26,25 @@ export default function App({ Component, pageProps }) {
 
       window.addEventListener("scroll", handleScroll);
 
-      // Cleanup listener saat komponen unmount
+      // bersihin listener saat komponen unmount
       return () => window.removeEventListener("scroll", handleScroll);
+    } else if (router.pathname != "/") {
+      const login = document.querySelector(".login-mobile");
+      const navMobile = document.querySelector(".navbar-mobile");
+      const menuBottom = document.querySelector(".menu-bottom");
+      login.classList.add("hidden");
+      // menuBottom.classList.add("hidden");
+      navMobile.classList.remove("shadow-lg");
     }
   }, [router.pathname]);
 
   return (
     <>
-      {router.pathname === "/" ? <NavTransparent /> : <Nav />}
+      {router.pathname === "/" || router.pathname === "/cari-dokter" ? (
+        <NavTransparent />
+      ) : (
+        <Nav />
+      )}
       <ChatNow />
       <Component {...pageProps} />
       <NavBottom />

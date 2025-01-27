@@ -8,7 +8,7 @@ import React from "react";
 const NavTransparent = ({ className = "bg-transparent border-none" }) => {
   return (
     <>
-      <div className="navbar center-alo z-50 h-14 w-full border-b border-[#ECECEC] bg-white shadow-lg transition-all duration-500">
+      <div className="navbar-mobile center-alo z-50 h-14 w-full border-b border-[#ECECEC] bg-white shadow-lg transition-all duration-500">
         <div className="navbar-inner between-alo min-w-[100%]">
           <div className="navbar-left row-alo center-alo min-w-[60%] gap-4">
             <div className="menu-button">
@@ -27,7 +27,7 @@ const NavTransparent = ({ className = "bg-transparent border-none" }) => {
             </div>
             <div className="logo center-alo min-h-8 w-[170px] bg-[url('/images/logo-header.webp')] bg-contain bg-no-repeat"></div>
           </div>
-          <div className="navbar-right flex min-w-[30%] flex-row items-center justify-center gap-3">
+          <div className="navbar-right mr-4 flex flex-row items-center justify-center gap-3 border-0">
             <div className="search">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const NavTransparent = ({ className = "bg-transparent border-none" }) => {
                 />
               </svg>
             </div>
-            <div className="login rounded-[8px] bg-alo px-3 py-2 text-sm font-bold text-white">
+            <div className="login-mobile rounded-[8px] bg-alo px-3 py-2 text-sm font-bold text-white">
               Login
             </div>
           </div>
