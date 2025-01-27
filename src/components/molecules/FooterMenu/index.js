@@ -5,9 +5,28 @@ import React from "react";
 const FooterMenu = () => {
   return (
     <>
-      <div className="footer-satu inline-block w-[330px] align-top text-[18px] mb-[30px]">
+      <div className="footer-menu mb-[80px] w-full">
+        <div className="menu-1 flex min-h-[50px] w-full items-center border-b border-[rgba(255,255,255,0.3)] px-[30px] text-[16px] font-bold">
+          + Alodokter
+        </div>
+        <div className="menu-1 flex min-h-[50px] w-full items-center border-b border-[rgba(255,255,255,0.3)] px-[30px] text-[16px] font-bold">
+          + Lainnya
+        </div>
+        <div className="menu-1 flex min-h-[50px] w-full items-center border-b border-[rgba(255,255,255,0.3)] px-[30px] text-[16px] font-bold">
+          + Bagian dari Alodokter
+        </div>
+        <div className="menu-1 flex min-h-[50px] w-full items-center justify-center gap-5 px-[30px] py-[15px] text-[16px] font-bold">
+          <div className="center-alo right-[0px] min-h-[30px] min-w-[30px] bg-[url('/images/facebook.svg')] bg-contain bg-no-repeat"></div>
+          <div className="center-alo right-[0px] min-h-[30px] min-w-[30px] bg-[url('/images/twitter.svg')] bg-contain bg-no-repeat"></div>
+          <div className="center-alo right-[0px] min-h-[30px] min-w-[30px] bg-[url('/images/linkedin.svg')] bg-contain bg-no-repeat"></div>
+          <div className="center-alo right-[0px] min-h-[30px] min-w-[30px] bg-[url('/images/instagram.svg')] bg-contain bg-no-repeat"></div>
+          <div className="center-alo right-[0px] min-h-[30px] min-w-[30px] bg-[url('/images/youtube.svg')] bg-contain bg-no-repeat"></div>
+        </div>
+      </div>
+
+      <div className="footer-satu mb-[30px] hidden w-[330px] align-top text-[18px] md:inline-block">
         <h4 className="m-0 text-[20px] font-bold">Alodokter</h4>
-        <ul className="p-0 my-[14px] leading-8">
+        <ul className="my-[14px] p-0 leading-8">
           <li>
             <LinkAtm>Tentang Kami</LinkAtm>
           </li>
@@ -28,9 +47,9 @@ const FooterMenu = () => {
           </li>
         </ul>
       </div>
-      <div className="footer-dua inline-block w-[330px] align-top text-[18px] mb-[30px]">
+      <div className="footer-dua mb-[30px] hidden w-[330px] align-top text-[18px] md:inline-block">
         <h4 className="m-0 text-[20px] font-bold">Lainnya</h4>
-        <ul className="p-0 my-[14px] leading-8">
+        <ul className="my-[14px] p-0 leading-8">
           <li>
             <LinkAtm>Syarat &amp; Ketentuan</LinkAtm>
           </li>
@@ -48,9 +67,9 @@ const FooterMenu = () => {
           </li>
         </ul>
       </div>
-      <div className="footer-data-item-social-medi inline-block w-[330px] align-top text-[18px] mb-[30px]">
+      <div className="footer-data-item-social-medi mb-[30px] hidden w-[330px] align-top text-[18px] md:inline-block">
         <h4 className="m-0 text-[20px] font-bold">Media Sosial</h4>
-        <div className="footer-row-social-media-list flex justify-between max-w-[260px] my-[14px] mb-[60px]">
+        <div className="footer-row-social-media-list my-[14px] mb-[60px] flex max-w-[260px] justify-between">
           <LinkAtm className={"mr-[20px]"}>
             <Image
               className="w-[35px]"
@@ -97,7 +116,7 @@ const FooterMenu = () => {
             />
           </LinkAtm>
         </div>
-        <p className="mt-[38px] mb-[10px] text-[16px] font-bold">
+        <p className="mb-[10px] mt-[38px] text-[16px] font-bold">
           Bagian dari Alodokter
         </p>
         <div className="alo-group block">

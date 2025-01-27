@@ -5,7 +5,7 @@ const NavMenu = ({ className = "text-[#424242]" }) => {
   return (
     <nav
       id="navMenu"
-      className={`${className} navMenu flex text-center gap-4 text-[14px] font-alo font-normal`}
+      className={`${className} navMenu flex gap-4 text-center text-[14px] font-normal`}
     >
       <LinkAtm href={"#"} text={"Info Kesehatan"} />
       <LinkAtm href={"#"} text={"Chat Dokter"} />

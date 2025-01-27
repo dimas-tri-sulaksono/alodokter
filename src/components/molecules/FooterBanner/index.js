@@ -10,54 +10,61 @@ const FooterBanner = ({
   return (
     <>
       <div
-        className={`banner-footer h-[155px] pt-[24px] pb-[21px] ${className}`}
+        className={`banner-footer h-[312px] min-w-10 border-0 border-black pt-[30px] lg:pb-[21px] lg:pt-[24px] ${className}`}
       >
-        <div className="container-footer flex flex-row justify-center gap-5">
-          <Image
-            className="w-[237px] -mt-[67px]"
+        <div className="container-footer min-h-[280px] border-0 border-slate-500 lg:flex lg:flex-row lg:justify-center lg:gap-5">
+          {/* <div className="center-alo relative bottom-[0px] left-[230px] hidden min-h-[174px] min-w-[200px] bg-[url('/images/chat.png')] bg-contain bg-no-repeat"></div> */}
+          {/* <Image
+            className="-mt-[67px] w-[237px]"
             src="/images/chat.png"
             alt="phone display chat"
             width={237}
             height={67}
-          />
-          <div className="text-banner">
-            <div className="text-banner-3 text-[26px] font-alo font-semibold">
+          /> */}
+          <div className="text-banner mr-[27px] min-w-[325px] px-[30px]">
+            <div className="text-banner-3 text-[25px] font-semibold lg:text-[26px]">
               {textSatu}
             </div>
-            <div className="text-banner-4 text-[24px] font-alo font-normal">
+            <div className="text-banner-4 text-[18px] font-normal lg:text-[24px]">
               {textDua}
             </div>
-            <div className="logo-kemenkes flex justify-end -mt-[20px]">
-              <Image
+            <div className="logo-kemenkes mb-1 mt-5 flex min-h-[44px] w-[132px] justify-end bg-[url('/images/kemenkes.png')] bg-contain bg-no-repeat lg:-mt-[20px]">
+              {/* <Image
                 className="w-[160px]"
                 src="/images/kemenkes.png"
                 alt="logo kementrian kesehatan"
                 width={160}
                 height={48}
-              />
+              /> */}
             </div>
           </div>
-          <div className="downloadApp">
+          <div className="downloadApp ml-[30px]">
             <LinkAtm>
-              <Image
-                className="w-[145px] mb-[10px]"
+              <div className="mt-2 min-h-[44px] w-[132px] bg-[url('/images/googleplay.png')] bg-contain bg-no-repeat"></div>
+              {/* <Image
+                className="mb-[10px] w-[145px]"
                 src="/images/googleplay.png"
                 alt="google play"
                 width={145}
                 height={41.7}
-              />
+              /> */}
             </LinkAtm>
             <LinkAtm>
-              <Image
+              <div className="mb-1 mt-1 min-h-[44px] w-[132px] bg-[url('/images/appstore.png')] bg-contain bg-no-repeat"></div>
+
+              {/* <Image
                 className="w-[145px]"
                 src="/images/appstore.png"
                 alt="app store"
                 width={145}
                 height={41.7}
-              />
+              /> */}
             </LinkAtm>
           </div>
         </div>
+        <div className="center-alo absolute -bottom-[460px] right-[0px] min-h-[174px] min-w-[200px] border-0 bg-[url('/images/chat.png')] bg-contain bg-no-repeat"></div>
+
+        <div className="borde-2 min-w-20 border-0 border-red-500"></div>
       </div>
     </>
   );

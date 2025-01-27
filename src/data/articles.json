@@ -1,39 +1,38 @@
 [
-    {
-      "id": 1,
-      "title": "Iris Mata, Ketahui Bagian dan Fungsinya",
-      "intro": "Iris mata adalah bagian berwarna pada mata yang terletak di antara kornea dan lensa mata",
-      "img": "/images/iris-mata-ketahui-bagian-dan-fungsinya.jpg",
-      "imgAlt": "iris-mata-ketahui-bagian-dan-fungsinya",
-      "tag": "KESEHATAN",
-      "classNameTag": "bg-tagKesehatan h-[25px] text-white text-[10px] leading-[24px]"
-    },
-    {
-      "id": 2,
-      "title": "7 Ciri-Ciri Depresi Ringan yang Perlu Dikenali",
-      "intro": "Ciri-ciri depresi ringan terkadang bisa sulit dikenali karena kerap dianggap sebagai perubahan mood yang normal",
-      "img": "/images/7-ciri-ciri-depresi-ringan-yang-perlu-dikenali.jpg",
-      "imgAlt": "7-ciri-ciri-depresi-ringan-yang-perlu-dikenali",
-      "tag": "KESEHATAN",
-      "classNameTag": "bg-tagKesehatan h-[25px] text-white text-[10px] leading-[24px]"
-    },
-    {
-      "id": 3,
-      "title": "9 Makanan untuk Menaikkan Trombosit",
-      "intro": "Makanan untuk menaikkan trombosit cukup beragam, mulai dari daging hingga sayuran. Berbagai makanan ini bisa",
-      "img": "/images/9-makanan-untuk-menaikkan-trombosit.jpg",
-      "imgAlt": "9-makanan-untuk-menaikkan-trombosit",
-      "tag": "HIDUP SEHAT",
-      "classNameTag": "bg-tagHidupSehat h-[25px] text-white text-[10px] leading-[24px]"
-    },
-    {
-      "id": 4,
-      "title": "Berapa Minggu Ibu Hamil Melahirkan? Ketahui Rata-Ratanya",
-      "intro": "Mengetahui berapa minggu ibu hamil melahirkan akan membantu persiapan Bumil dan keluarga dalam menyambut Si",
-      "img": "/images/berapa-minggu-ibu-hamil-melahirkan-ketahui-rata-ratanya.jpg",
-      "imgAlt": "berapa-minggu-ibu-hamil-melahirkan-ketahui-rata-ratanya",
-      "tag": "KELUARGA",
-      "classNameTag": "bg-tagKeluarga h-[25px] text-white text-[10px] leading-[24px]"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Iris Mata, Ketahui Bagian dan Fungsinya",
+    "intro": "Iris mata adalah bagian berwarna pada mata yang terletak di antara kornea dan lensa mata",
+    "img": "/images/iris-mata-ketahui-bagian-dan-fungsinya2.jpg",
+    "imgAlt": "iris-mata-ketahui-bagian-dan-fungsinya",
+    "tag": "Kesehatan",
+    "classNameTag": "bg-tagKesehatan h-[25px] text-white text-[10px] leading-[24px]"
+  },
+  {
+    "id": 2,
+    "title": "7 Ciri-Ciri Depresi Ringan yang Perlu Dikenali",
+    "intro": "Ciri-ciri depresi ringan terkadang bisa sulit dikenali karena kerap dianggap sebagai perubahan mood yang normal",
+    "img": "/images/7-ciri-ciri-depresi-ringan-yang-perlu-dikenali2.jpg",
+    "imgAlt": "7-ciri-ciri-depresi-ringan-yang-perlu-dikenali",
+    "tag": "Kesehatan",
+    "classNameTag": "bg-tagKesehatan h-[25px] text-white text-[10px] leading-[24px]"
+  },
+  {
+    "id": 3,
+    "title": "9 Makanan untuk Menaikkan Trombosit",
+    "intro": "Makanan untuk menaikkan trombosit cukup beragam, mulai dari daging hingga sayuran. Berbagai makanan ini bisa",
+    "img": "/images/9-makanan-untuk-menaikkan-trombosit2.jpg",
+    "imgAlt": "9-makanan-untuk-menaikkan-trombosit",
+    "tag": "Hidup Sehat",
+    "classNameTag": "bg-tagHidupSehat h-[25px] text-white text-[10px] leading-[24px]"
+  },
+  {
+    "id": 4,
+    "title": "Berapa Minggu Ibu Hamil Melahirkan? Ketahui Rata-Ratanya",
+    "intro": "Mengetahui berapa minggu ibu hamil melahirkan akan membantu persiapan Bumil dan keluarga dalam menyambut Si",
+    "img": "/images/berapa-minggu-ibu-hamil-melahirkan-ketahui-rata-ratanya2.jpg",
+    "imgAlt": "berapa-minggu-ibu-hamil-melahirkan-ketahui-rata-ratanya",
+    "tag": "Keluarga",
+    "classNameTag": "bg-tagKeluarga h-[25px] text-white text-[10px] leading-[24px]"
+  }
+]

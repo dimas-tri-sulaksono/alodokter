@@ -7,14 +7,11 @@ export default function Articles() {
   return (
     <>
       <div className="content-inner">
-        <div className="container w-[1000px] h-[1250px] mx-[405px]">
+        <div className="container lg:h-[1250px] lg:mx-[405px] lg:w-[1000px]">
           <div className="main-container">
             {/* <!-- chat now --> */}
-            <ChatNow />
-
             {/* <!-- trending article --> */}
             <TrendingPost />
-
             {/* menampilkan artikel */}
             {articles.map((articleData) => (
               <CardPost

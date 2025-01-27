@@ -7,7 +7,7 @@ const ChatNow = () => {
     <>
       <LinkAtm
         href="https://play.google.com/store/apps/details?id=com.alodokter.android&shortlink=5c20772d&is_retargeting=true&pid=Website-Floating-Chat-Button&source_caller=ui"
-        className={"fixed bottom-6 right-9 z-[100] cursor-pointer"}
+        className={"fixed bottom-28 right-3 z-[100] cursor-pointer"}
       >
         <Image
           src="/images/chat-now.gif"

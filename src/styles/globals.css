@@ -15,6 +15,22 @@
   body{
     font-family: "Lato", sans-serif;
   }
+
+  .between-alo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row-alo{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .center-alo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
 
   /* hover submenu */

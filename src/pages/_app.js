@@ -4,6 +4,8 @@ import Footer from "@/components/organism/Footer";
 import Nav from "@/components/organism/Nav";
 import NavTransparent from "@/components/organism/NavTransparent";
 import "@/styles/globals.css";
+import ChatNow from "@/components/molecules/ChatNow";
+import NavBottom from "@/components/molecules/NavBottom";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -32,8 +34,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {router.pathname === "/" ? <NavTransparent /> : <Nav />}
+      <ChatNow />
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <NavBottom />
+      <Footer />
     </>
   );
 }

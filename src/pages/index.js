@@ -1,6 +1,8 @@
 import SubNav from "@/components/molecules/SubNav";
 import Hero from "@/components/organism/Hero";
 import Articles from "../components/organism/Articles";
+import Image from "next/image";
+import LinkAtm from "@/components/atoms/LinkAtm";
 
 export default function Home() {
   return (
@@ -14,8 +16,10 @@ export default function Home() {
         <SubNav text="Artikel Kesehatan Terkini untuk Anda" />
 
         {/* articles */}
-        {/* <Articles /> */}
+        <Articles />
       </div>
+
+      
     </>
   );
 }

@@ -1,16 +1,40 @@
 import LinkAtm from "@/components/atoms/LinkAtm";
 import React from "react";
 
-const SubNav = ({text}) => {
+const SubNav = ({ text }) => {
   return (
     <>
-      <div className="subnav-center flex items-centr justify-center mt-[50px]">
+      <div className="subnav text-[#424242]">
+        <div className="head between-alo mb-4 px-4 font-bold">
+          <div className="left">Artikel Kesehatan</div>
+          <div className="right text-alo">Lihat Semua</div>
+        </div>
+        <div className="body center-alo mx-2 gap-1 text-sm">
+          <div className="category min-w-[20px] rounded-full border border-[#7f7f7f] px-4 py-2">
+            Nutrisi
+          </div>
+          <div className="category min-w-[20px] rounded-full border border-[#7f7f7f] px-4 py-2">
+            Diabetes
+          </div>
+          <div className="category min-w-[20px] rounded-full border border-[#7f7f7f] px-4 py-2">
+            Jantung
+          </div>
+          <div className="category min-w-[20px] rounded-full border border-[#7f7f7f] px-4 py-2">
+            Diet
+          </div>
+          <div className="category min-w-[20px] rounded-full border border-[#7f7f7f] px-4 py-2">
+            Bayi
+          </div>
+        </div>
+      </div>
+
+      <div className="subnav-center center-alo lg:mt-[50px] hidden md:block">
         <div className="container-subnav-center hidden md:block lg:w-[1000px]">
-          <h2 className="text-[30px] text-[#424242] font-bold font-alo">
+          <h2 className="font-alo text-[30px] font-bold text-[#424242]">
             {text}
           </h2>
-          <div className="subnav-menu block mt-[20px] mb-[40px] h-[69px] border-t border-b border-[#dddddd]">
-            <ul className="list-none flex justify-between gap-6 m-0 p-0 text-[16px] text-[#424242] leading-[69px] font-alo font-normal">
+          <div className="subnav-menu mb-[40px] mt-[20px] block h-[69px] border-b border-t border-[#dddddd]">
+            <ul className="font-alo m-0 flex list-none justify-between gap-6 p-0 text-[16px] font-normal leading-[69px] text-[#424242]">
               <li className="list-item">
                 <LinkAtm>Nutrisi</LinkAtm>
               </li>

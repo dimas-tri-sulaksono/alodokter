@@ -6,18 +6,18 @@ import React from "react";
 const TrendingPost = () => {
   return (
     <>
-      <div className="trending-article">
+      <div className="trending-article hidden md:block">
         <div className="trending-wrapper">
           <div className="trending-image">
             <LinkAtm href="blog.js">
               <ArticleTag
                 tag={"Kesehatan"}
-                className="bg-tagKesehatan text-white text-[12px] leading-[20px] w-[75.73px] h-[21px]"
+                className="h-[21px] w-[75.73px] bg-tagKesehatan text-[12px] leading-[20px] text-white"
               />
             </LinkAtm>
             <LinkAtm>
               <Image
-                className="w-[667px] h-[336px]"
+                className="lg:h-[336px] lg:w-[667px]"
                 src="/images/obat-diare-ampuh.jpg"
                 alt="obat-diare-ampuh"
                 width={667}
@@ -28,18 +28,18 @@ const TrendingPost = () => {
           <div className="trending-content mt-[17px]">
             <div>
               <LinkAtm href="blog.html">
-                <h3 className="w-[667px] h-[21px] text-[#424242] text-[21px] font-alo font-bold">
+                <h3 className="h-[21px] text-[21px] font-bold text-[#424242] lg:w-[667px]">
                   10 Obat Diare Ampuh
                 </h3>
               </LinkAtm>
-              <p className="w-[667px] py-[16px] text-[#7f7f7f] font-alo">
+              <p className="py-[16px] text-[#7f7f7f] lg:w-[667px]">
                 Obat diare efektif menghentikan mencret yang sudah terjadi
                 berkali-kali dan meredakan berbagai keluhan yang menyertainya.
                 Obat ini dapat membuat buang...
               </p>
               <LinkAtm
                 href="blog.html"
-                className="text-[#3670D2] text-sm font-alo font-bold"
+                className="text-sm font-bold text-[#3670D2]"
               >
                 Baca Selengkapnya
               </LinkAtm>
