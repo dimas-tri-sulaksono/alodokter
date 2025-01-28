@@ -8,7 +8,7 @@ const Footer = ({ className = "bg-alo text-white" }) => {
     <>
       <div
         id="footer"
-        class={`footer mt-[10px] min-h-[500px] border-0 border-yellow-400 ${className}`}
+        className={`footer mt-[10px] min-h-[500px] border-0 border-yellow-400 ${className}`}
       >
         <FooterBanner
           textSatu={"Chat lebih dari 1.000 dokter di Aplikasi Alodokter!"}

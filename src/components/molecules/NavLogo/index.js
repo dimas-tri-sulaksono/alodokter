@@ -1,3 +1,4 @@
+import LinkAtm from "@/components/atoms/LinkAtm";
 import Image from "next/image";
 import React from "react";
 
@@ -10,7 +11,7 @@ const NavLogo = ({
     <div
       className={`flex items-center justify-center w-[120px] py-[10px] ${className}`}
     >
-      <a href="#" id="homeLogo" class="flex">
+      <LinkAtm href="#" id="homeLogo" className="flex">
         <Image
           className="mr-[7px]"
           src={image}
@@ -18,7 +19,7 @@ const NavLogo = ({
           height={32}
           width={width}
         />
-      </a>
+      </LinkAtm>
     </div>
   );
 };

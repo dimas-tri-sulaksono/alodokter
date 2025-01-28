@@ -57,8 +57,8 @@ const NavTransparent = ({ className = "bg-transparent border-none" }) => {
           <div className="top-navbar-inner h-[80px] items-center justify-between py-[15.5px] lg:flex">
             <div className="lg:top-navbar-left flex items-center justify-center">
               <NavLogo image="/images/logo.svg" width={113} />
-              <div class="vl my-[10px] ml-[36px] h-[29px] border-l border-[#ffffff]"></div>
-              <div class="hidden md:block">
+              <div className="vl my-[10px] ml-[36px] h-[29px] border-l border-[#ffffff]"></div>
+              <div className="hidden md:block">
                 <SearchBar
                   image="bg-[url('/images/search.svg')]"
                   classNameInput="placeholder-white rounded-[8px] w-[226px] h-[48px] flex justify-center items-center"
@@ -69,7 +69,7 @@ const NavTransparent = ({ className = "bg-transparent border-none" }) => {
                 />
               </div>
             </div>
-            <div class="top-navbar-right flex w-[790px] items-center justify-between">
+            <div className="top-navbar-right flex w-[790px] items-center justify-between">
               <NavMenu className="text-white" />
               <NavButtonTransparent />
             </div>

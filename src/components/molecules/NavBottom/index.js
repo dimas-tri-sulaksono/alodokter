@@ -4,12 +4,12 @@ import React from "react";
 const NavBottom = () => {
   return (
     <>
-      <div className="menu-bottom fixed bottom-0 z-50 m-0 flex h-[80px] w-full items-center justify-center border-t border-[#ECECEC] bg-white px-0 py-[1px]">
+      <div className="menu-bottom md:hidden fixed bottom-0 z-50 m-0 flex h-[80px] w-full items-center justify-center border-t border-[#ECECEC] bg-white px-0 py-[1px]">
         <div className="inner between-alo gap-8">
           <div className="wrapper w-[50px]">
             <div className="icon mx-auto w-[25px] items-center justify-center p-0">
               <Image
-                src="/images/nav/bottom-icon-home.svg"
+                src="/images/icons/bottom-icon-home.svg"
                 alt=""
                 width={50}
                 height={50}
@@ -28,7 +28,7 @@ const NavBottom = () => {
           <div className="wrapper w-[50px]">
             <div className="icon mx-auto w-[25px] items-center justify-center p-0">
               <Image
-                src="/images/nav/bottom-icon-paperlist.svg"
+                src="/images/icons/bottom-icon-paperlist.svg"
                 alt=""
                 width={50}
                 height={50}
@@ -41,7 +41,7 @@ const NavBottom = () => {
           <div className="wrapper w-[50px]">
             <div className="icon mx-auto w-[25px] items-center justify-center p-0">
               <Image
-                src="/images/nav/bottom-icon-doc.svg"
+                src="/images/icons/bottom-icon-doc.svg"
                 alt=""
                 width={50}
                 height={50}
@@ -54,7 +54,7 @@ const NavBottom = () => {
           <div className="wrapper w-[50px]">
             <div className="icon mx-auto w-[25px] items-center justify-center p-0">
               <Image
-                src="/images/nav/bottom-icon-umbrella.svg"
+                src="/images/icons/bottom-icon-umbrella.svg"
                 alt=""
                 width={50}
                 height={50}
@@ -67,7 +67,7 @@ const NavBottom = () => {
           <div className="wrapper w-[50px]">
             <div className="icon mx-auto w-[25px] items-center justify-center p-0">
               <Image
-                src="/images/nav/bottom-icon-profile.svg"
+                src="/images/icons/bottom-icon-profile.svg"
                 alt=""
                 width={50}
                 height={50}

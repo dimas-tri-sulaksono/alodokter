@@ -6,6 +6,7 @@ import NavTransparent from "@/components/organism/NavTransparent";
 import "@/styles/globals.css";
 import ChatNow from "@/components/molecules/ChatNow";
 import NavBottom from "@/components/molecules/NavBottom";
+import Cart from "@/components/molecules/Cart";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -34,18 +35,19 @@ export default function App({ Component, pageProps }) {
       const menuBottom = document.querySelector(".menu-bottom");
       login.classList.add("hidden");
       // menuBottom.classList.add("hidden");
-      navMobile.classList.remove("shadow-lg");
+      navMobile?.classList.remove("shadow-lg");
     }
   }, [router.pathname]);
 
   return (
     <>
-      {router.pathname === "/" || router.pathname === "/cari-dokter" ? (
+      {/* {router.pathname === "/" || router.pathname === "/cari-dokter" ? (
         <NavTransparent />
       ) : (
         <Nav />
-      )}
-      <ChatNow />
+      )} */}
+      <NavTransparent />
+      {router.pathname === "/aloshop" ? <Cart /> : <ChatNow />}
       <Component {...pageProps} />
       <NavBottom />
       <Footer />
