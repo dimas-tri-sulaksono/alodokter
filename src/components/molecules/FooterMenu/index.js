@@ -5,7 +5,7 @@ import React from "react";
 const FooterMenu = () => {
   return (
     <>
-      <div className="footer-menu mb-[80px] w-full">
+      <div className="footer-menu mb-[80px] w-full md:hidden">
         <div className="menu-1 flex min-h-[50px] w-full items-center border-b border-[rgba(255,255,255,0.3)] px-[30px] text-[16px] font-bold">
           + Alodokter
         </div>

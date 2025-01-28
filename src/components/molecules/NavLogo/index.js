@@ -9,7 +9,7 @@ const NavLogo = ({
 }) => {
   return (
     <div
-      className={`flex items-center justify-center w-[120px] py-[10px] ${className}`}
+      className={`flex items-center justify-center w-[216px] py-[10px] ${className}`}
     >
       <LinkAtm href="#" id="homeLogo" className="flex">
         <Image

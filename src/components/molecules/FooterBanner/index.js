@@ -10,12 +10,12 @@ const FooterBanner = ({
   return (
     <>
       <div
-        className={`banner-footer h-[312px] min-w-10 border-0 border-black pt-[30px] lg:pb-[21px] lg:pt-[24px] ${className}`}
+        className={`banner-footer h-[312px] lg:h-[180px] min-w-10 border-0 border-black pt-[30px] lg:pb-[21px] lg:pt-[24px] ${className}`}
       >
         <div className="container-footer min-h-[280px] border-0 border-slate-500 lg:flex lg:flex-row lg:justify-center lg:gap-5">
           {/* <div className="center-alo relative bottom-[0px] left-[230px] hidden min-h-[174px] min-w-[200px] bg-[url('/images/chat.png')] bg-contain bg-no-repeat"></div> */}
           {/* <Image
-            className="-mt-[67px] w-[237px]"
+            className="-mt-[67px] w-[237px] hidden"
             src="/images/chat.png"
             alt="phone display chat"
             width={237}
@@ -28,9 +28,9 @@ const FooterBanner = ({
             <div className="text-banner-4 text-[18px] font-normal lg:text-[24px]">
               {textDua}
             </div>
-            <div className="logo-kemenkes mb-1 mt-5 flex min-h-[44px] w-[132px] justify-end bg-[url('/images/kemenkes.png')] bg-contain bg-no-repeat lg:-mt-[20px]">
+            <div className="logo-kemenkes mb-1 mt-5 border-0 lg:absolute lg:right-[710px] flex h-[48px] min-h-[44px] w-[132px] justify-end bg-[url('/images/kemenkes.png')] bg-contain bg-no-repeat lg:-mt-[20px] lg:w-[160px]">
               {/* <Image
-                className="w-[160px]"
+                className="w-[160px] lg:block"
                 src="/images/kemenkes.png"
                 alt="logo kementrian kesehatan"
                 width={160}

@@ -46,6 +46,7 @@ export default function App({ Component, pageProps }) {
       ) : (
         <Nav />
       )} */}
+      {/* <Nav /> */}
       <NavTransparent />
       {router.pathname === "/aloshop" ? <Cart /> : <ChatNow />}
       <Component {...pageProps} />

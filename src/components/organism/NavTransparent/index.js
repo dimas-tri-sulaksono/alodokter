@@ -8,10 +8,10 @@ import React from "react";
 const NavTransparent = ({ className = "bg-transparent border-none" }) => {
   return (
     <>
-      <div className="navbar-mobile center-alo z-50 h-14 w-full border-b border-[#ECECEC] bg-white shadow-lg transition-all duration-500">
+      <div className="navbar-mobile center-alo z-50 h-14 w-full border-b border-[#ECECEC] bg-white shadow-lg transition-all duration-500 md:hidden">
         <div className="navbar-inner between-alo min-w-[100%]">
           <div className="navbar-left row-alo center-alo min-w-[60%] gap-4">
-            <div className="menu-button">
+            <div className="menu-button md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -49,6 +49,28 @@ const NavTransparent = ({ className = "bg-transparent border-none" }) => {
         </div>
       </div>
 
+      {/* white */}
+      <div
+        className={`top-navbar fixed left-1/2 top-0 z-[100] hidden w-full -translate-x-1/2 shadow-sm transform border-b-2 border-[#dadee4] bg-white px-8 py-[7px] text-sm transition-all duration-300 md:block ${className}`}
+      >
+        <div className="container-fluid mx-auto block w-[1340px] p-0">
+          <div className="top-navbar-inner flex items-center justify-between">
+            <div className="top-navbar-left flex h-[49px] justify-between">
+              <NavLogo />
+              <SearchBar
+                className={"ml-[29px] mr-4 h-20 py-[4px]"}
+                placeholder={"Cari di Alodokter"}
+              />
+            </div>
+            <div class="top-navbar-right ml-[23px] flex w-[830px] items-center justify-between">
+              <NavMenu />
+              <NavButton />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* transparent */}
       <div
         id=""
         className={`top-navbar fixed left-1/2 z-[100] hidden h-[80px] w-full -translate-x-1/2 transform border-b bg-white text-sm transition-all duration-300 xl:bg-transparent ${className}`}
